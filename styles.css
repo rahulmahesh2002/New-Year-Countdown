@@ -1,0 +1,40 @@
+body {
+   
+    background-color: rgb(4, 3, 3);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.countdown-container {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    text-align: center;
+}
+
+.logo, h1 {
+    display: flex;
+    justify-content: center;
+    font: 2em sans-serif;
+    color: aliceblue;
+}
+
+.big-text {
+    font-size: 3rem;
+    margin: 10px 2rem;
+}
+
+.big-text span {
+    font-size: 3rem;
+    font-weight: bolder; /* corrected font property */
+    margin-bottom: 30px; /* Increased margin-bottom for more space */
+}
+
+.logo img {
+    width: 100px; /* Adjust the width to your desired size */
+}
+
+.countdown{
+    margin-bottom: 20px;
+}
